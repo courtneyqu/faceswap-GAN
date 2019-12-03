@@ -3,6 +3,7 @@ from keras.layers import *
 from keras.optimizers import Adam
 from .nn_blocks import *
 from .losses import *
+from keras import regularizers
 
 class FaceswapGANModel():
     """
